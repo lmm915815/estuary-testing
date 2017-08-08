@@ -24,6 +24,7 @@ install() {
     case "${dist}" in
       debian|ubuntu) install_deps "lsb-release" "${SKIP_INSTALL}";;
       fedora|centos) install_deps "redhat-lsb-core" "${SKIP_INSTALL}";;
+      opensuse) install_deps "lsb-release" "{SKIP_INSTALL}";;
       unknown) warn_msg "Unsupported distro: package install skipped" ;;
     esac
 }

@@ -153,7 +153,9 @@ detect_abi() {
 dist_name() {
     if [ -f /etc/os-release ]; then
         # shellcheck disable=SC1091
+        # 相当于把文件中定义的变量放到当前shell环境中，然后去取出该值
         dist=$(. /etc/os-release && echo "${ID}")
+        # opensuse
     elif [ -x /usr/bin/lsb_release ]; then
         dist="$(lsb_release -si)"
     elif [ -f /etc/lsb-release ]; then
@@ -205,6 +207,8 @@ install_deps() {
             # shellcheck disable=SC2086
             dnf -e 0 -y install ${pkgs}
             ;;
+          opensuse)
+            zypper -n -q  install ${pkgs};;
           *)
             warn_msg "Unsupported distro: ${dist}! Package installation skipped."
             ;;
