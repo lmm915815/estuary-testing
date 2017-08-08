@@ -26,6 +26,7 @@ install() {
     case "${dist}" in
       debian|ubuntu) install_deps "build-essential" "${SKIP_INSTALL}" ;;
       fedora|centos) install_deps "gcc glibc-static" "${SKIP_INSTALL}" ;;
+      opensuse)     install_deps "gcc" "${SKIP_INSTALL}";;
       unknown) warn_msg "Unsupported distro: package install skipped" ;;
     esac
 }
