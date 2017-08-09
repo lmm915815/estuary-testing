@@ -208,7 +208,10 @@ install_deps() {
             dnf -e 0 -y install ${pkgs}
             ;;
           opensuse)
-            zypper -n -q  install ${pkgs};;
+            zypper -n -q update
+            zypper -n -q net_tools*
+            zypper -n -q  install ${pkgs}
+            ;;
           *)
             warn_msg "Unsupported distro: ${dist}! Package installation skipped."
             ;;
@@ -276,7 +279,7 @@ dist_info() {
     if ! command -v lsb_release > /dev/null; then
         dist_name
         case "${dist}" in
-          debian|ubuntu) install_deps "lsb-release" ;;
+          debian|ubuntu|opensuse) install_deps "lsb-release" ;;
           centos|fedora) install_deps "redhat-lsb-core" ;;
           *) warn_msg "Unsupported distro: dist_info skipped"
         esac
