@@ -278,7 +278,7 @@ dist_info() {
     if ! command -v lsb_release > /dev/null; then
         dist_name
         case "${dist}" in
-          debian|ubuntu) install_deps "lsb-release" ;;
+          debian|ubuntu|opensuse) install_deps "lsb-release" ;;
           centos|fedora) install_deps "redhat-lsb-core" ;;
           *) warn_msg "Unsupported distro: dist_info skipped"
         esac

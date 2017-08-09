@@ -112,7 +112,7 @@ install() {
     dist_name
     # shellcheck disable=SC2154
     case "${dist}" in
-      debian|ubuntu)
+      debian|ubuntu|opensuse)
         pkgs="binutils gcc make python sed tar wget"
         install_deps "${pkgs}" "${SKIP_INSTALL}"
         ;;
