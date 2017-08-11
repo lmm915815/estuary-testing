@@ -209,7 +209,6 @@ install_deps() {
             ;;
           opensuse)
             zypper -n -q update
-            zypper -n -q net_tools*
             zypper -n -q  install ${pkgs}
             ;;
           *)
