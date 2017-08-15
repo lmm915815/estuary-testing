@@ -1,0 +1,642 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AutomatedTestRun	automated/bin/test-runner	/^class AutomatedTestRun(TestRun):$/;"	c
+AutomatedTestRun	automated/utils/test-runner.py	/^class AutomatedTestRun(TestRun):$/;"	c
+COMMIT	common/scripts/lkp.py	/^COMMIT = sys.argv[4]$/;"	v
+COMPILER	common/scripts/lkp.py	/^COMPILER = os.readlink('\/usr\/bin\/gcc')$/;"	v
+CONFIG	common/scripts/lkp.py	/^CONFIG = 'defconfig'$/;"	v
+ERROR	automated/utils/httperf/httperf-runner.py	/^    ERROR = 5$/;"	v	class:httperf_runner
+FAILED	automated/utils/httperf/httperf-runner.py	/^    FAILED = 3$/;"	v	class:httperf_runner
+FINISHED	automated/utils/httperf/httperf-runner.py	/^    FINISHED = 4$/;"	v	class:httperf_runner
+HOSTNAME	common/scripts/lkp.py	/^HOSTNAME = platform.node()$/;"	v
+HTTPERF_ERROR	automated/utils/httperf/httperf-runner.py	/^    HTTPERF_ERROR = 3$/;"	v	class:httperf
+HTTPERF_FINISHED	automated/utils/httperf/httperf-runner.py	/^    HTTPERF_FINISHED = 2$/;"	v	class:httperf
+HTTPERF_INIT	automated/utils/httperf/httperf-runner.py	/^    HTTPERF_INIT = 0$/;"	v	class:httperf
+HTTPERF_RUNNING	automated/utils/httperf/httperf-runner.py	/^    HTTPERF_RUNNING = 1$/;"	v	class:httperf
+IDLE	automated/utils/httperf/httperf-runner.py	/^    IDLE = 0$/;"	v	class:httperf_runner
+JOB	common/scripts/lkp.py	/^JOB = sys.argv[3]$/;"	v
+LKP_PATH	common/scripts/lkp.py	/^LKP_PATH = sys.argv[1]$/;"	v
+LOOPS	common/scripts/lkp.py	/^LOOPS = int(sys.argv[5])$/;"	v
+MONITORS	common/scripts/lkp.py	/^MONITORS = sys.argv[6]$/;"	v
+ManualTestRun	automated/bin/test-runner	/^class ManualTestRun(TestRun, cmd.Cmd):$/;"	c
+ManualTestRun	automated/utils/test-runner.py	/^class ManualTestRun(TestRun, cmd.Cmd):$/;"	c
+ManualTestShell	automated/bin/test-runner	/^class ManualTestShell(cmd.Cmd):$/;"	c
+ManualTestShell	automated/utils/test-runner.py	/^class ManualTestShell(cmd.Cmd):$/;"	c
+MyHandler	automated/linux/kvm/wait-ip.py	/^class MyHandler(BaseHTTPRequestHandler):$/;"	c
+PYTHON	common/scripts/overlayfs.py	/^    PYTHON = 'python'$/;"	v
+PYTHON	common/scripts/overlayfs.py	/^    PYTHON = 'python3'$/;"	v
+ParseTolerance	automated/utils/httperf/httperf-runner.py	/^class ParseTolerance(argparse.Action):$/;"	c
+PythonVersion	common/scripts/overlayfs.py	/^PythonVersion = subprocess.check_output([PYTHON, '--version'])$/;"	v
+RESULT_MAP	common/scripts/fwts-parser.py	/^RESULT_MAP = {'PAS': 'pass',$/;"	v
+ROOTFS	common/scripts/lkp.py	/^ROOTFS = str.lower(platform.dist()[0])$/;"	v
+RUNNING	automated/utils/httperf/httperf-runner.py	/^    RUNNING = 1$/;"	v	class:httperf_runner
+RemoteTestRun	automated/bin/test-runner	/^class RemoteTestRun(AutomatedTestRun):$/;"	c
+RemoteTestRun	automated/utils/test-runner.py	/^class RemoteTestRun(AutomatedTestRun):$/;"	c
+ResultParser	automated/bin/test-runner	/^class ResultParser(object):$/;"	c
+ResultParser	automated/utils/test-runner.py	/^class ResultParser(object):$/;"	c
+SETUP_JOB	common/scripts/lkp.py	/^SETUP_JOB = [LKP_PATH + '\/bin\/setup-local',$/;"	v
+SPLIT_JOB	common/scripts/lkp.py	/^SPLIT_JOB = [LKP_PATH + '\/sbin\/split-job', MONITORS, '--kernel', COMMIT,$/;"	v
+SUB_TESTS	common/scripts/lkp.py	/^SUB_TESTS = glob.glob(WD + '\/' + JOB + '\/*.yaml')$/;"	v
+SUCCESS	automated/utils/httperf/httperf-runner.py	/^    SUCCESS = 2$/;"	v	class:httperf_runner
+SUFFIX	common/scripts/overlayfs.py	/^            SUFFIX = ''$/;"	v
+SUFFIX	common/scripts/overlayfs.py	/^            SUFFIX = '-termslash'$/;"	v
+TESTS	common/scripts/overlayfs.py	/^TESTS = ['open-plain',$/;"	v
+TermSlashList	common/scripts/overlayfs.py	/^TermSlashList = ['0', '1']$/;"	v
+TestCommand	common/scripts/overlayfs.py	/^        TestCommand = [PYTHON, TestSuitePath + '\/run', '--ov',$/;"	v
+TestDefinition	automated/bin/test-runner	/^class TestDefinition(object):$/;"	c
+TestDefinition	automated/utils/test-runner.py	/^class TestDefinition(object):$/;"	c
+TestPlan	automated/bin/test-runner	/^class TestPlan(object):$/;"	c
+TestPlan	automated/utils/test-runner.py	/^class TestPlan(object):$/;"	c
+TestRun	automated/bin/test-runner	/^class TestRun(object):$/;"	c
+TestRun	automated/utils/test-runner.py	/^class TestRun(object):$/;"	c
+TestSetup	automated/bin/test-runner	/^class TestSetup(object):$/;"	c
+TestSetup	automated/utils/test-runner.py	/^class TestSetup(object):$/;"	c
+TestSuitePath	common/scripts/overlayfs.py	/^TestSuitePath = sys.argv[1]$/;"	v
+WD	common/scripts/lkp.py	/^WD = sys.argv[2]$/;"	v
+__call__	automated/utils/httperf/httperf-runner.py	/^    def __call__(self, parser, namespace, values, option_string=None):$/;"	m	class:ParseTolerance	file:
+__has_errors	automated/utils/httperf/httperf-runner.py	/^    def __has_errors(self, cmd):$/;"	m	class:httperf_runner	file:
+__init__	automated/bin/test-runner	/^    def __init__(self, args):$/;"	m	class:TestPlan
+__init__	automated/bin/test-runner	/^    def __init__(self, test, args):$/;"	m	class:ResultParser
+__init__	automated/bin/test-runner	/^    def __init__(self, test, args):$/;"	m	class:TestDefinition
+__init__	automated/bin/test-runner	/^    def __init__(self, test, args):$/;"	m	class:TestRun
+__init__	automated/bin/test-runner	/^    def __init__(self, test, args):$/;"	m	class:TestSetup
+__init__	automated/bin/test-runner	/^    def __init__(self, test_dict, result_path):$/;"	m	class:ManualTestShell
+__init__	automated/utils/httperf/httperf-runner.py	/^    def __init__(self, step=10000, rate=10000, min_step=200, duration=5,$/;"	m	class:httperf_runner
+__init__	automated/utils/httperf/httperf-runner.py	/^    def __init__(self,$/;"	m	class:httperf
+__init__	automated/utils/test-runner.py	/^    def __init__(self, args):$/;"	m	class:TestPlan
+__init__	automated/utils/test-runner.py	/^    def __init__(self, test, args):$/;"	m	class:ResultParser
+__init__	automated/utils/test-runner.py	/^    def __init__(self, test, args):$/;"	m	class:TestDefinition
+__init__	automated/utils/test-runner.py	/^    def __init__(self, test, args):$/;"	m	class:TestRun
+__init__	automated/utils/test-runner.py	/^    def __init__(self, test, args):$/;"	m	class:TestSetup
+__init__	automated/utils/test-runner.py	/^    def __init__(self, test_dict, result_path):$/;"	m	class:ManualTestShell
+__parse_output	automated/utils/httperf/httperf-runner.py	/^    def __parse_output(self):$/;"	m	class:httperf	file:
+_print_step	automated/bin/test-runner	/^    def _print_step(self):$/;"	m	class:ManualTestShell
+_print_step	automated/utils/test-runner.py	/^    def _print_step(self):$/;"	m	class:ManualTestShell
+_record_result	automated/bin/test-runner	/^    def _record_result(self, result):$/;"	m	class:ManualTestShell
+_record_result	automated/utils/test-runner.py	/^    def _record_result(self, result):$/;"	m	class:ManualTestShell
+action	validate.py	/^                        action="store_true",$/;"	v
+adb_pull	automated/lib/android-test-lib	/^adb_pull() {$/;"	f
+adb_push	automated/lib/android-test-lib	/^adb_push() {$/;"	f
+adb_root	automated/lib/android-test-lib	/^adb_root() {$/;"	f
+adb_shell_which	automated/lib/android-test-lib	/^adb_shell_which() {$/;"	f
+add_csv_row	plans/testplan2html.py	/^def add_csv_row(requirement, test, args, manual=False):$/;"	f
+add_key	automated/lib/sh-test-lib	/^add_key() {$/;"	f
+add_metric	automated/lib/sh-test-lib	/^add_metric() {$/;"	f
+add_metric	common/scripts/include/sh-test-lib	/^add_metric() {$/;"	f
+add_repo	automated/lib/sh-test-lib	/^add_repo() {$/;"	f
+add_result	automated/lib/py_test_lib.py	/^def add_result(result_file, result):$/;"	f
+args	automated/bin/post-to-squad	/^    args = parse_args()$/;"	v
+args	automated/utils/httperf/httperf-runner.py	/^args = parser.parse_args()$/;"	v
+args	automated/utils/post-to-squad.py	/^    args = parse_args()$/;"	v
+args	validate.py	/^    args = parser.parse_args()$/;"	v
+async_handler	automated/linux/ltp-realtime/ltp-realtime.py	/^def async_handler():$/;"	f
+async_handler	common/scripts/ltp-realtime2LAVA.py	/^def async_handler():$/;"	f
+async_handler_jk	automated/linux/ltp-realtime/ltp-realtime.py	/^def async_handler_jk():$/;"	f
+async_handler_jk	common/scripts/ltp-realtime2LAVA.py	/^def async_handler_jk():$/;"	f
+avg_dict	common/scripts/lkp.py	/^            avg_dict = json.load(avg_json_data)$/;"	v
+avg_file	common/scripts/lkp.py	/^        avg_file = result_root + '\/' + 'avg.json'$/;"	v
+avg_json_data	common/scripts/lkp.py	/^            avg_json_data = open(avg_file)$/;"	v
+bandwidth_test	automated/linux/lmbench/lmbench-memory.sh	/^bandwidth_test() {$/;"	f
+ch	automated/bin/post-to-squad	/^    ch = logging.StreamHandler()$/;"	v
+ch	automated/utils/post-to-squad.py	/^    ch = logging.StreamHandler()$/;"	v
+check_coverage	plans/testplan2html.py	/^def check_coverage(requirement, repositories, args):$/;"	f
+check_iks	common/scripts/iks-smoke-test.sh	/^check_iks()$/;"	f
+check_kernel_oops	common/scripts/iks-smoke-test.sh	/^check_kernel_oops()$/;"	f
+check_result	automated/bin/test-runner	/^    def check_result(self):$/;"	m	class:AutomatedTestRun
+check_result	automated/bin/test-runner	/^    def check_result(self):$/;"	m	class:ManualTestRun
+check_result	automated/bin/test-runner	/^    def check_result(self):$/;"	m	class:TestRun
+check_result	automated/utils/test-runner.py	/^    def check_result(self):$/;"	m	class:AutomatedTestRun
+check_result	automated/utils/test-runner.py	/^    def check_result(self):$/;"	m	class:ManualTestRun
+check_result	automated/utils/test-runner.py	/^    def check_result(self):$/;"	m	class:TestRun
+check_return	automated/lib/sh-test-lib	/^check_return() {$/;"	f
+check_return	common/scripts/include/sh-test-lib	/^check_return() {$/;"	f
+check_return_fail	common/scripts/include/sh-test-lib	/^check_return_fail() {$/;"	f
+check_root	automated/lib/sh-test-lib	/^check_root() {$/;"	f
+check_root	common/scripts/include/sh-test-lib	/^check_root() {$/;"	f
+checkout_version	automated/bin/test-runner	/^    def checkout_version(self):$/;"	m	class:TestSetup
+checkout_version	automated/utils/test-runner.py	/^    def checkout_version(self):$/;"	m	class:TestSetup
+clear_cpusets	common/scripts/is-cpu-isolated.sh	/^clear_cpusets() {$/;"	f
+clone_repository	plans/testplan2html.py	/^def clone_repository(repository_url, base_path, ignore=False):$/;"	f
+cmd_options	common/scripts/min_max_avg_parse.py	/^    cmd_options = ""$/;"	v
+cmd_options	common/scripts/min_max_avg_parse.py	/^    cmd_options = sys.argv[4]$/;"	v
+configure_client	automated/linux/httperf-client/httperf-client.sh	/^function configure_client {$/;"	f
+configure_guest	automated/linux/kvm/start-kvm.sh	/^configure_guest()$/;"	f
+configure_ramdisk	automated/linux/nginx-server/nginx-server.sh	/^function configure_ramdisk {$/;"	f
+conn	automated/linux/lamp/html/add-record.php	/^$conn = mysqli_connect($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lamp/html/connect-db.php	/^$conn = new mysqli($servername, $username, $password);$/;"	v
+conn	automated/linux/lamp/html/create-db.php	/^$conn = new mysqli($servername, $username, $password);$/;"	v
+conn	automated/linux/lamp/html/create-table.php	/^$conn = new mysqli($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lamp/html/delete-record.php	/^$conn = new mysqli($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lamp/html/select-record.php	/^$conn = new mysqli($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lemp/html/add-record.php	/^$conn = mysqli_connect($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lemp/html/connect-db.php	/^$conn = new mysqli($servername, $username, $password);$/;"	v
+conn	automated/linux/lemp/html/create-db.php	/^$conn = new mysqli($servername, $username, $password);$/;"	v
+conn	automated/linux/lemp/html/create-table.php	/^$conn = new mysqli($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lemp/html/delete-record.php	/^$conn = new mysqli($servername, $username, $password, $dbname);$/;"	v
+conn	automated/linux/lemp/html/select-record.php	/^$conn = new mysqli($servername, $username, $password, $dbname);$/;"	v
+content	common/scripts/fwts-parser.py	/^            content = linere.group('content')$/;"	v
+convert_to_mb	automated/lib/sh-test-lib	/^convert_to_mb() {$/;"	f
+copy_test_repo	automated/bin/test-runner	/^    def copy_test_repo(self):$/;"	m	class:TestSetup
+copy_test_repo	automated/utils/test-runner.py	/^    def copy_test_repo(self):$/;"	m	class:TestSetup
+copy_to_target	automated/bin/test-runner	/^    def copy_to_target(self):$/;"	m	class:RemoteTestRun
+copy_to_target	automated/utils/test-runner.py	/^    def copy_to_target(self):$/;"	m	class:RemoteTestRun
+count	common/scripts/lkp.py	/^        count = count + 1$/;"	v
+count	common/scripts/lkp.py	/^    count = 1$/;"	v
+count_interrupts_on_isol_cpus	common/scripts/is-cpu-isolated.sh	/^count_interrupts_on_isol_cpus() {$/;"	f
+cpufreq_fix_governor	common/scripts/is-cpu-isolated.sh	/^cpufreq_fix_governor() {$/;"	f
+create_dir	automated/bin/test-runner	/^    def create_dir(self):$/;"	m	class:TestSetup
+create_dir	automated/utils/test-runner.py	/^    def create_dir(self):$/;"	m	class:TestSetup
+create_disklabel	automated/linux/disk-partitioning/disk-partitioning.sh	/^create_disklabel() {$/;"	f
+create_disklabel	common/scripts/disk-partitioning-test.sh	/^create_disklabel() {$/;"	f
+create_dplane_cpuset	common/scripts/is-cpu-isolated.sh	/^create_dplane_cpuset() {$/;"	f
+create_out_dir	automated/lib/sh-test-lib	/^create_out_dir() {$/;"	f
+create_partition	automated/linux/disk-partitioning/disk-partitioning.sh	/^create_partition() {$/;"	f
+create_partition	common/scripts/disk-partitioning-test.sh	/^create_partition() {$/;"	f
+create_uuid_file	automated/bin/test-runner	/^    def create_uuid_file(self):$/;"	m	class:TestSetup
+create_uuid_file	automated/utils/test-runner.py	/^    def create_uuid_file(self):$/;"	m	class:TestSetup
+csv_file	automated/utils/httperf/httperf-runner.py	/^    csv_file = None$/;"	v
+csv_file	automated/utils/httperf/httperf-runner.py	/^    csv_file = os.path.join(args.dir[0], args.csv[0])$/;"	v	class:ParseTolerance
+dbname	automated/linux/lamp/html/add-record.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lamp/html/create-table.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lamp/html/delete-record.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lamp/html/select-record.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lemp/html/add-record.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lemp/html/create-table.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lemp/html/delete-record.php	/^$dbname = "myDB";$/;"	v
+dbname	automated/linux/lemp/html/select-record.php	/^$dbname = "myDB";$/;"	v
+dd_read	automated/linux/dd-wr-speed/dd-wr-speed.sh	/^dd_read() {$/;"	f
+dd_read	common/scripts/dd-speed-test.sh	/^dd_read() {$/;"	f
+dd_write	automated/linux/dd-wr-speed/dd-wr-speed.sh	/^dd_write() {$/;"	f
+dd_write	common/scripts/dd-speed-test.sh	/^dd_write() {$/;"	f
+deadline	common/scripts/kvm/test-kvm.sh	/^deadline() {$/;"	f
+default	validate.py	/^                        default="",$/;"	v
+default	validate.py	/^                        default="build-error.txt",$/;"	v
+default	validate.py	/^                        default=False,$/;"	v
+default	validate.py	/^                        default=["E501"],$/;"	v
+definition	automated/bin/test-runner	/^    def definition(self):$/;"	m	class:TestDefinition
+definition	automated/utils/test-runner.py	/^    def definition(self):$/;"	m	class:TestDefinition
+dest	validate.py	/^                        dest="file_path")$/;"	v
+dest	validate.py	/^                        dest="git_latest")$/;"	v
+dest	validate.py	/^                        dest="pep8_ignore")$/;"	v
+dest	validate.py	/^                        dest="result_file")$/;"	v
+dest	validate.py	/^                        dest="shellcheck_ignore")$/;"	v
+detect_abi	automated/lib/android-test-lib	/^detect_abi() {$/;"	f
+detect_abi	automated/lib/sh-test-lib	/^detect_abi() {$/;"	f
+device_tree	automated/linux/device-tree/device-tree.sh	/^device_tree() {$/;"	f
+device_tree_property	automated/linux/device-tree/device-tree.sh	/^device_tree_property() {$/;"	f
+dict	common/scripts/lkp.py	/^            dict = json.load(json_data)$/;"	v
+dict_to_csv	automated/bin/test-runner	/^    def dict_to_csv(self):$/;"	m	class:ResultParser
+dict_to_csv	automated/utils/test-runner.py	/^    def dict_to_csv(self):$/;"	m	class:ResultParser
+dict_to_json	automated/bin/test-runner	/^    def dict_to_json(self):$/;"	m	class:ResultParser
+dict_to_json	automated/utils/test-runner.py	/^    def dict_to_json(self):$/;"	m	class:ResultParser
+disable_suspend	automated/lib/android-test-lib	/^disable_suspend() {$/;"	f
+disk_mount	automated/linux/disk-partitioning/disk-partitioning.sh	/^disk_mount() {$/;"	f
+dist_info	automated/lib/sh-test-lib	/^dist_info() {$/;"	f
+dist_name	automated/lib/sh-test-lib	/^dist_name() {$/;"	f
+dist_name	common/scripts/include/sh-test-lib	/^dist_name() {$/;"	f
+do_EOF	automated/bin/test-runner	/^    do_EOF = do_quit$/;"	v	class:ManualTestShell
+do_EOF	automated/utils/test-runner.py	/^    do_EOF = do_quit$/;"	v	class:ManualTestShell
+do_GET	automated/linux/kvm/wait-ip.py	/^    def do_GET(self):$/;"	m	class:MyHandler
+do_POST	automated/linux/kvm/wait-ip.py	/^    def do_POST(self):$/;"	m	class:MyHandler
+do_configure_system	automated/linux/nginx-server/linux-ip.sh	/^do_configure_system() {$/;"	f
+do_configure_system	automated/linux/nginx-server/odp-dpdk-git.sh	/^do_configure_system() {$/;"	f
+do_configure_system	automated/linux/nginx-server/odp-dpdk.sh	/^do_configure_system() {$/;"	f
+do_current	automated/bin/test-runner	/^    def do_current(self, line):$/;"	m	class:ManualTestShell
+do_current	automated/utils/test-runner.py	/^    def do_current(self, line):$/;"	m	class:ManualTestShell
+do_description	automated/bin/test-runner	/^    def do_description(self, line):$/;"	m	class:ManualTestShell
+do_description	automated/utils/test-runner.py	/^    def do_description(self, line):$/;"	m	class:ManualTestShell
+do_expected	automated/bin/test-runner	/^    def do_expected(self, line):$/;"	m	class:ManualTestShell
+do_expected	automated/utils/test-runner.py	/^    def do_expected(self, line):$/;"	m	class:ManualTestShell
+do_fail	automated/bin/test-runner	/^    def do_fail(self, line):$/;"	m	class:ManualTestShell
+do_fail	automated/utils/test-runner.py	/^    def do_fail(self, line):$/;"	m	class:ManualTestShell
+do_next	automated/bin/test-runner	/^    def do_next(self, line):$/;"	m	class:ManualTestShell
+do_next	automated/utils/test-runner.py	/^    def do_next(self, line):$/;"	m	class:ManualTestShell
+do_nothing	automated/linux/ltp-realtime/ltp-realtime.py	/^def do_nothing():$/;"	f
+do_nothing	common/scripts/ltp-realtime2LAVA.py	/^def do_nothing():$/;"	f
+do_pass	automated/bin/test-runner	/^    def do_pass(self, line):$/;"	m	class:ManualTestShell
+do_pass	automated/utils/test-runner.py	/^    def do_pass(self, line):$/;"	m	class:ManualTestShell
+do_post_test_cb	automated/linux/nginx-server/linux-ip.sh	/^do_post_test_cb() {$/;"	f
+do_post_test_cb	automated/linux/nginx-server/odp-dpdk-git.sh	/^do_post_test_cb() {$/;"	f
+do_post_test_cb	automated/linux/nginx-server/odp-dpdk.sh	/^do_post_test_cb() {$/;"	f
+do_pre_test_cb	automated/linux/nginx-server/linux-ip.sh	/^do_pre_test_cb() {$/;"	f
+do_pre_test_cb	automated/linux/nginx-server/odp-dpdk-git.sh	/^do_pre_test_cb() {$/;"	f
+do_pre_test_cb	automated/linux/nginx-server/odp-dpdk.sh	/^do_pre_test_cb() {$/;"	f
+do_quit	automated/bin/test-runner	/^    def do_quit(self, line):$/;"	m	class:ManualTestShell
+do_quit	automated/utils/test-runner.py	/^    def do_quit(self, line):$/;"	m	class:ManualTestShell
+do_skip	automated/bin/test-runner	/^    def do_skip(self, line):$/;"	m	class:ManualTestShell
+do_skip	automated/utils/test-runner.py	/^    def do_skip(self, line):$/;"	m	class:ManualTestShell
+do_start	automated/bin/test-runner	/^    do_start = do_current$/;"	v	class:ManualTestShell
+do_start	automated/utils/test-runner.py	/^    do_start = do_current$/;"	v	class:ManualTestShell
+do_start_nginx	automated/linux/nginx-server/linux-ip.sh	/^do_start_nginx() {$/;"	f
+do_start_nginx	automated/linux/nginx-server/odp-dpdk-git.sh	/^do_start_nginx() {$/;"	f
+do_start_nginx	automated/linux/nginx-server/odp-dpdk.sh	/^do_start_nginx() {$/;"	f
+do_steps	automated/bin/test-runner	/^    def do_steps(self, line):$/;"	m	class:ManualTestShell
+do_steps	automated/utils/test-runner.py	/^    def do_steps(self, line):$/;"	m	class:ManualTestShell
+do_stop_nginx	automated/linux/nginx-server/linux-ip.sh	/^do_stop_nginx() {$/;"	f
+do_stop_nginx	automated/linux/nginx-server/odp-dpdk-git.sh	/^do_stop_nginx() {$/;"	f
+do_stop_nginx	automated/linux/nginx-server/odp-dpdk.sh	/^do_stop_nginx() {$/;"	f
+do_write_nginx_config	automated/linux/nginx-server/linux-ip.sh	/^do_write_nginx_config() {$/;"	f
+do_write_nginx_config	automated/linux/nginx-server/odp-dpdk-git.sh	/^do_write_nginx_config() {$/;"	f
+do_write_nginx_config	automated/linux/nginx-server/odp-dpdk.sh	/^do_write_nginx_config() {$/;"	f
+done	common/scripts/lkp.py	/^            done = False$/;"	v
+done	common/scripts/lkp.py	/^    done = True$/;"	v
+download_file	automated/linux/kvm/start-kvm.sh	/^download_file()$/;"	f
+dump_interrupts	common/scripts/is-cpu-isolated.sh	/^dump_interrupts() {$/;"	f
+enable_and_disable_switcher_100_times	common/scripts/iks-smoke-test.sh	/^enable_and_disable_switcher_100_times()$/;"	f
+error_msg	automated/lib/sh-test-lib	/^error_msg() {$/;"	f
+error_msg	common/scripts/include/sh-test-lib	/^error_msg() {$/;"	f
+examine_all_usb_devices	automated/linux/usb-smoke/usb-smoke-test.sh	/^examine_all_usb_devices() {$/;"	f
+exit_error	automated/linux/nginx-server/linux-ip.sh	/^exit_error() {$/;"	f
+exit_error	automated/linux/nginx-server/odp-dpdk-git.sh	/^exit_error() {$/;"	f
+exit_error	automated/linux/nginx-server/odp-dpdk.sh	/^exit_error() {$/;"	f
+exit_on_fail	automated/lib/sh-test-lib	/^exit_on_fail() {$/;"	f
+exit_on_skip	automated/lib/sh-test-lib	/^exit_on_skip() {$/;"	f
+f	common/scripts/lkp.py	/^f = open('\/etc\/apt\/sources.list.d\/multiverse.list', 'w')$/;"	v
+f	common/scripts/min_max_avg_parse.py	/^f = open(sys.argv[1], "r")$/;"	v
+fail_test	common/scripts/include/sh-test-lib	/^fail_test() {$/;"	f
+field	common/scripts/fwts-parser.py	/^            field = linere.group('field')$/;"	v
+find_user	common/scripts/lkp.py	/^def find_user(name):$/;"	f
+fio_build_install	automated/linux/fio-test/fio-test.sh	/^fio_build_install() {$/;"	f
+fio_test	automated/linux/fio-test/fio-test.sh	/^fio_test() {$/;"	f
+for_each_isol_cpu	common/scripts/is-cpu-isolated.sh	/^for_each_isol_cpu() {$/;"	f
+format	common/scripts/min_max_avg_parse.py	/^format = "%-16s%-16s%-16s%-16s"$/;"	v
+format_partition	automated/linux/disk-partitioning/disk-partitioning.sh	/^format_partition() {$/;"	f
+format_partition	common/scripts/disk-partitioning-test.sh	/^format_partition() {$/;"	f
+formatter	automated/bin/post-to-squad	/^    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')$/;"	v
+formatter	automated/utils/post-to-squad.py	/^    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')$/;"	v
+found_result	common/scripts/netperf2LAVA.py	/^                                found_result = "true"$/;"	v
+found_result	common/scripts/netperf2LAVA.py	/^found_result = "false"$/;"	v
+general_parser	automated/linux/sysbench/sysbench.sh	/^general_parser() {$/;"	f
+get_args	automated/bin/test-runner	/^def get_args():$/;"	f
+get_args	automated/utils/test-runner.py	/^def get_args():$/;"	f
+get_cpu_count	common/scripts/odp-on-isolated-cpu.sh	/^get_cpu_count() {$/;"	f
+get_environment	automated/bin/test-runner	/^def get_environment(target=None, skip_collection=False):$/;"	f
+get_environment	automated/utils/test-runner.py	/^def get_environment(target=None, skip_collection=False):$/;"	f
+get_error_list	automated/utils/httperf/httperf-runner.py	/^    def get_error_list(self):$/;"	m	class:httperf
+get_errors	automated/utils/httperf/httperf-runner.py	/^    def get_errors(self, kind):$/;"	m	class:httperf
+get_isolation_duration	common/scripts/is-cpu-isolated.sh	/^get_isolation_duration() {$/;"	f
+get_num_real_cores	automated/linux/nginx-server/nginx-server.sh	/^function get_num_real_cores {$/;"	f
+get_packages	automated/bin/test-runner	/^def get_packages(linux_distribution, target=None):$/;"	f
+get_packages	automated/utils/test-runner.py	/^def get_packages(linux_distribution, target=None):$/;"	f
+get_results	common/scripts/kvm/test-kvm.sh	/^get_results()$/;"	f
+get_vland_entry	automated/utils/vland/get_vland_interface.sh	/^get_vland_entry() {$/;"	f
+get_vland_interface	automated/utils/vland/get_vland_interface.sh	/^get_vland_interface() {$/;"	f
+get_vland_names	automated/utils/vland/get_vland_interface.sh	/^get_vland_names() {$/;"	f
+get_vland_sys_path	automated/utils/vland/get_vland_interface.sh	/^get_vland_sys_path() {$/;"	f
+google_chrome_softlink	automated/linux/ui-browser-test/install.sh	/^google_chrome_softlink () {$/;"	f
+group_name	common/scripts/fwts-parser.py	/^                    group_name = headerre.group('group_name')$/;"	v
+grouplist	common/scripts/fwts-parser.py	/^grouplist = {}$/;"	v
+gt	common/scripts/fwts-parser.py	/^                    gt = {'name': group_name, 'subtests': [], 'result': ''}$/;"	v
+gtod_latency	automated/linux/ltp-realtime/ltp-realtime.py	/^def gtod_latency():$/;"	f
+gtod_latency	common/scripts/ltp-realtime2LAVA.py	/^def gtod_latency():$/;"	f
+handle_parameters	automated/bin/test-runner	/^    def handle_parameters(self):$/;"	m	class:TestDefinition
+handle_parameters	automated/utils/test-runner.py	/^    def handle_parameters(self):$/;"	m	class:TestDefinition
+header	common/scripts/fwts-parser.py	/^header = re.compile("(?P<gowner>[a-z]+):\\\\s(?P<group_name>[ ()a-zA-Z-_]+)")$/;"	v
+headerre	common/scripts/fwts-parser.py	/^                headerre = header.search(content)$/;"	v
+help	validate.py	/^                            commit instead of the whole repository",$/;"	v
+help	validate.py	/^                        help="Path to the file that contains results in case of failure",$/;"	v
+help	validate.py	/^                        help="Path to the file that should be checked",$/;"	v
+help	validate.py	/^                        help="Space separated list of pep8 exclusions",$/;"	v
+help	validate.py	/^                        help="Space separated list of shellcheck exclusions",$/;"	v
+httperf	automated/utils/httperf/httperf-runner.py	/^class httperf:$/;"	c
+httperf_runner	automated/utils/httperf/httperf-runner.py	/^class httperf_runner:$/;"	c
+increment_return_status	automated/linux/usb-smoke/usb-smoke-test.sh	/^increment_return_status() {$/;"	f
+info_msg	automated/lib/sh-test-lib	/^info_msg() {$/;"	f
+info_msg	common/scripts/include/sh-test-lib	/^info_msg() {$/;"	f
+initialize_adb	automated/lib/android-test-lib	/^initialize_adb() {$/;"	f
+input_file	automated/linux/ui-browser-test/robot-results-parser.py	/^input_file = sys.argv[1]$/;"	v
+install	automated/lib/android-test-lib	/^install() {$/;"	f
+install	automated/linux/fio-test/fio-test.sh	/^install() {$/;"	f
+install	automated/linux/kselftest/kselftest.sh	/^install() {$/;"	f
+install	automated/linux/lapack/lapack.sh	/^install() {$/;"	f
+install	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^install() {$/;"	f
+install	automated/linux/network-basic/network-basic.sh	/^install() {$/;"	f
+install	automated/linux/smoke/smoke.sh	/^install() {$/;"	f
+install	automated/linux/toolchain-smoke/toolchain-smoke.sh	/^install() {$/;"	f
+install	common/scripts/disk-partitioning-test.sh	/^install() {$/;"	f
+install_chromedriver_debian	automated/linux/ui-browser-test/install.sh	/^install_chromedriver_debian () {$/;"	f
+install_deps	automated/lib/sh-test-lib	/^install_deps() {$/;"	f
+install_deps	common/scripts/include/sh-test-lib	/^install_deps() {$/;"	f
+install_latest_adb	automated/lib/android-test-lib	/^install_latest_adb() {$/;"	f
+install_ltp	automated/linux/ltp-realtime/ltp-realtime.sh	/^install_ltp() {$/;"	f
+install_ltp	automated/linux/ltp/ltp.sh	/^install_ltp() {$/;"	f
+install_sysbench	automated/linux/sysbench/sysbench.sh	/^install_sysbench() {$/;"	f
+is_isol_cpu	common/scripts/is-cpu-isolated.sh	/^is_isol_cpu() {$/;"	f
+isdebug	common/scripts/is-cpu-isolated.sh	/^isdebug() {$/;"	f
+isolate_cpu	common/scripts/is-cpu-isolated.sh	/^isolate_cpu() {$/;"	f
+json_data	common/scripts/lkp.py	/^            json_data = open(result_file)$/;"	v
+lapack_build_test	automated/linux/lapack/lapack.sh	/^lapack_build_test() {$/;"	f
+latency_test	automated/linux/lmbench/lmbench-memory.sh	/^latency_test() {$/;"	f
+libhugetlbfs_build_test	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^libhugetlbfs_build_test() {$/;"	f
+libhugetlbfs_cleanup	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^libhugetlbfs_cleanup() {$/;"	f
+libhugetlbfs_run_test	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^libhugetlbfs_run_test() {$/;"	f
+libhugetlbfs_setup	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^libhugetlbfs_setup() {$/;"	f
+line	common/scripts/fwts-parser.py	/^line = re.compile("(?P<owner>[a-z_]+)\\\\s*-(?P<field>[A-Z]+):(?P<content>.*)")$/;"	v
+linere	common/scripts/fwts-parser.py	/^        linere = line.search(l)$/;"	v
+list_all_mmc_devices	automated/linux/mmc/mmc-test.sh	/^list_all_mmc_devices() {$/;"	f
+list_all_usb_devices	automated/linux/usb-smoke/usb-smoke-test.sh	/^list_all_usb_devices() {$/;"	f
+lkp_run	common/scripts/lkp.py	/^        lkp_run = [LKP_PATH + '\/bin\/run-local',$/;"	v
+log_message	automated/linux/kvm/wait-ip.py	/^    def log_message(self, format, *args):$/;"	m	class:MyHandler
+log_parser	automated/linux/unixbench/unixbench.sh	/^log_parser() {$/;"	f
+logger	automated/bin/post-to-squad	/^    logger = logging.getLogger('post-to-squad')$/;"	v
+logger	automated/utils/post-to-squad.py	/^    logger = logging.getLogger('post-to-squad')$/;"	v
+main	automated/bin/post-to-squad	/^def main():$/;"	f
+main	automated/bin/test-runner	/^def main():$/;"	f
+main	automated/linux/toolchain-smoke/hello.c	/^void main(int argc)$/;"	f
+main	automated/utils/post-to-squad.py	/^def main():$/;"	f
+main	automated/utils/test-runner.py	/^def main():$/;"	f
+main	common/scripts/ltp-ddt.sh	/^main()$/;"	f
+main	plans/testplan2html.py	/^def main():$/;"	f
+main	validate.py	/^def main(args):$/;"	f
+matrix_mult	automated/linux/ltp-realtime/ltp-realtime.py	/^def matrix_mult():$/;"	f
+matrix_mult	common/scripts/ltp-realtime2LAVA.py	/^def matrix_mult():$/;"	f
+max	common/scripts/perf-mmaptest.sh	/^max(){$/;"	f
+metadata	automated/bin/test-runner	/^    def metadata(self):$/;"	m	class:TestDefinition
+metadata	automated/utils/test-runner.py	/^    def metadata(self):$/;"	m	class:TestDefinition
+metadata_check	validate.py	/^def metadata_check(filepath, args):$/;"	f
+min_max_mean	common/scripts/mmtests.sh	/^min_max_mean(){$/;"	f
+mkrun	automated/bin/test-runner	/^    def mkrun(self):$/;"	m	class:TestDefinition
+mkrun	automated/utils/test-runner.py	/^    def mkrun(self):$/;"	m	class:TestDefinition
+name	automated/linux/ui-browser-test/robot-results-parser.py	/^            name = stat.get('name')$/;"	v
+nargs	validate.py	/^                        nargs="*",$/;"	v
+np_array	common/scripts/min_max_avg_parse.py	/^np_array = array(values)$/;"	v
+odp_isol_setup	common/scripts/odp-on-isolated-cpu.sh	/^odp_isol_setup() {$/;"	f
+ofile	automated/utils/httperf/httperf-runner.py	/^ofile = os.path.join(args.dir[0], args.output)$/;"	v
+output	automated/utils/httperf/httperf-runner.py	/^    def output(self):$/;"	m	class:httperf
+output	automated/utils/httperf/httperf-runner.py	/^    def output(self):$/;"	m	class:httperf_runner
+owner	common/scripts/fwts-parser.py	/^            owner = linere.group('owner')$/;"	v
+parse_args	automated/bin/post-to-squad	/^def parse_args():$/;"	f
+parse_args	automated/utils/post-to-squad.py	/^def parse_args():$/;"	f
+parse_arguments	common/scripts/is-cpu-isolated.sh	/^parse_arguments()$/;"	f
+parse_common_args	automated/lib/android-test-lib	/^parse_common_args() {$/;"	f
+parse_ltp_output	automated/linux/ltp/ltp.sh	/^parse_ltp_output() {$/;"	f
+parse_output	automated/linux/dd-wr-speed/dd-wr-speed.sh	/^parse_output() {$/;"	f
+parse_output	automated/linux/kselftest/kselftest.sh	/^parse_output() {$/;"	f
+parse_output	automated/linux/lapack/lapack.sh	/^parse_output() {$/;"	f
+parse_output	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^parse_output() {$/;"	f
+parse_output	automated/linux/openssh/openssh-debian.sh	/^parse_output() {$/;"	f
+parse_output	common/scripts/dd-speed-test.sh	/^parse_output() {$/;"	f
+parse_output	manual/generic/linux/openssh-centos.sh	/^parse_output() {$/;"	f
+parse_pattern	automated/bin/test-runner	/^    def parse_pattern(self):$/;"	m	class:ResultParser
+parse_pattern	automated/utils/test-runner.py	/^    def parse_pattern(self):$/;"	m	class:ResultParser
+parse_stdout	automated/bin/test-runner	/^    def parse_stdout(self):$/;"	m	class:ResultParser
+parse_stdout	automated/utils/test-runner.py	/^    def parse_stdout(self):$/;"	m	class:ResultParser
+parser	automated/utils/httperf/httperf-runner.py	/^parser = argparse.ArgumentParser(description='Find highest rate using httperf')$/;"	v
+parser	validate.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser_replay	common/scripts/netperf2LAVA.py	/^parser_replay = re.compile("Rated:\\s+(?P<throughput1>\\d+\\.\\d+)\\s+\\S+\\s+(?P<throughput2>\\d+\\.\\d+)\\s+\\S+\\s+(?P<throughput3>\\d+\\.\\d+)")$/;"	v
+parser_rr	common/scripts/netperf2LAVA.py	/^parser_rr = re.compile("^\\s*(?P<Send>\\d+)\\s+(?P<Recv>\\d+)\\s+(?P<Req>\\d+)\\s+(?P<Res>\\d+)\\s+(?P<time>\\d+\\.\\d+)\\s+(?P<trans>\\d+\\.\\d+)\\s+(?P<cpu_s>\\d+\\.\\d+)\\s+(?P<cpu_r>\\d+\\.\\d+)\\s+(?P<srv_s>\\d+\\.\\d+)\\s+(?P<dem_r>\\d+\\.\\d+)\\s*$")$/;"	v
+parser_rr_tcp	common/scripts/netperf2LAVA.py	/^parser_rr_tcp = re.compile("TCP REQUEST\/RESPONSE")$/;"	v
+parser_rr_udp	common/scripts/netperf2LAVA.py	/^parser_rr_udp = re.compile("UDP REQUEST\/RESPONSE")$/;"	v
+parser_rtt	common/scripts/netperf2LAVA.py	/^parser_rtt = re.compile("^rtt\\s+\\S+\\s+\\=\\s+(?P<min>\\d+\\.\\d+)\\\/(?P<avg>\\d+\\.\\d+)\\\/(?P<max>\\d+\\.\\d+)\\\/(?P<mdev>\\d+\\.\\d+)")$/;"	v
+parser_tcp	common/scripts/netperf2LAVA.py	/^parser_tcp = re.compile("^\\s*(?P<Recv>\\d+)\\s+(?P<Send>\\d+)\\s+(?P<Msg>\\d+)\\s+(?P<time>\\d+\\.\\d+)\\s+(?P<throughput>\\d+\\.\\d+)\\s+(?P<cpu_s>\\d+\\.\\d+)\\s+(?P<cpu_r>\\d+\\.\\d+)\\s+(?P<srv_s>\\d+\\.\\d+)\\s+(?P<dem_r>\\d+\\.\\d+)\\s*$")$/;"	v
+parser_udp_l	common/scripts/netperf2LAVA.py	/^parser_udp_l = re.compile("^\\s*(?P<Sock>\\d+)\\s+(?P<Msg>\\d+)\\s+(?P<time>\\d+\\.\\d+)\\s+(?P<Okey>\\d+)\\s+(?P<Errs>\\d+)\\s+(?P<throughput>\\d+\\.\\d+)\\s+(?P<cpu_s>\\d+\\.\\d+)\\s+(?P<srv_s>\\d+\\.\\d+)\\s*$")$/;"	v
+parser_udp_r	common/scripts/netperf2LAVA.py	/^parser_udp_r = re.compile("^\\s*(?P<Sock>\\d+)\\s+(?P<time>\\d+\\.\\d+)\\s+(?P<Okey>\\d+)\\s+(?P<throughput>\\d+\\.\\d+)\\s+(?P<cpu_r>\\d+\\.\\d+)\\s+(?P<srv_r>\\d+\\.\\d+)\\s*$")$/;"	v
+partition_smoke_test	common/scripts/disk-partitioning-test.sh	/^partition_smoke_test() {$/;"	f
+pass_test	common/scripts/include/sh-test-lib	/^pass_test() {$/;"	f
+password	automated/linux/lamp/html/add-record.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lamp/html/connect-db.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lamp/html/create-db.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lamp/html/create-table.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lamp/html/delete-record.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lamp/html/select-record.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lemp/html/add-record.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lemp/html/connect-db.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lemp/html/create-db.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lemp/html/create-table.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lemp/html/delete-record.php	/^$password = "lxmptest";$/;"	v
+password	automated/linux/lemp/html/select-record.php	/^$password = "lxmptest";$/;"	v
+pep8_check	validate.py	/^def pep8_check(filepath, args):$/;"	f
+periodic_cpu_load	automated/linux/ltp-realtime/ltp-realtime.py	/^def periodic_cpu_load():$/;"	f
+periodic_cpu_load	common/scripts/ltp-realtime2LAVA.py	/^def periodic_cpu_load():$/;"	f
+periodic_cpu_load_single	automated/linux/ltp-realtime/ltp-realtime.py	/^def periodic_cpu_load_single():$/;"	f
+periodic_cpu_load_single	common/scripts/ltp-realtime2LAVA.py	/^def periodic_cpu_load_single():$/;"	f
+pi_perf	automated/linux/ltp-realtime/ltp-realtime.py	/^def pi_perf():$/;"	f
+pi_perf	common/scripts/ltp-realtime2LAVA.py	/^def pi_perf():$/;"	f
+pi_perf_results	automated/linux/ltp-realtime/ltp-realtime.py	/^def pi_perf_results():$/;"	f
+pi_perf_results	common/scripts/ltp-realtime2LAVA.py	/^def pi_perf_results():$/;"	f
+pip_requirements	automated/linux/ui-browser-test/install.sh	/^pip_requirements () {$/;"	f
+pipe0_status	automated/lib/sh-test-lib	/^pipe0_status() {$/;"	f
+pointer_tagging_build_test	automated/linux/pointer-tagging/pointer-tagging-tests.sh	/^pointer_tagging_build_test() {$/;"	f
+prepare_partition	automated/linux/dd-wr-speed/dd-wr-speed.sh	/^prepare_partition() {$/;"	f
+prepare_partition	common/scripts/dd-speed-test.sh	/^prepare_partition() {$/;"	f
+print_stderr	validate.py	/^def print_stderr(message):$/;"	f
+print_supported_usb_protocols	automated/linux/usb-smoke/usb-smoke-test.sh	/^print_supported_usb_protocols() {$/;"	f
+print_supported_usb_speeds	automated/linux/usb-smoke/usb-smoke-test.sh	/^print_supported_usb_speeds() {$/;"	f
+prio_preempt	automated/linux/ltp-realtime/ltp-realtime.py	/^def prio_preempt():$/;"	f
+prio_preempt	common/scripts/ltp-realtime2LAVA.py	/^def prio_preempt():$/;"	f
+prio_wake	automated/linux/ltp-realtime/ltp-realtime.py	/^def prio_wake():$/;"	f
+prio_wake	common/scripts/ltp-realtime2LAVA.py	/^def prio_wake():$/;"	f
+pthread_kill_latency	automated/linux/ltp-realtime/ltp-realtime.py	/^def pthread_kill_latency():$/;"	f
+pthread_kill_latency	common/scripts/ltp-realtime2LAVA.py	/^def pthread_kill_latency():$/;"	f
+publish_result	validate.py	/^def publish_result(result_message_list, args):$/;"	f
+r	common/scripts/min_max_avg_parse.py	/^r = re.compile(sys.argv[2] + "\\s+(?P<measurement>[0-9.]+)")$/;"	v
+refresh_interrupts	common/scripts/is-cpu-isolated.sh	/^refresh_interrupts() {$/;"	f
+remove_dplane_cpuset	common/scripts/is-cpu-isolated.sh	/^remove_dplane_cpuset() {$/;"	f
+render	plans/testplan2html.py	/^def render(obj, template="testplan.html", name=None):$/;"	f
+report_fail	automated/lib/sh-test-lib	/^report_fail() {$/;"	f
+report_pass	automated/lib/sh-test-lib	/^report_pass() {$/;"	f
+repository_list	plans/testplan2html.py	/^def repository_list(testplan):$/;"	f
+result	automated/linux/lamp/html/select-record.php	/^$result = $conn->query($sql);$/;"	v
+result	automated/linux/lemp/html/select-record.php	/^$result = $conn->query($sql);$/;"	v
+result	common/scripts/fwts-parser.py	/^result = re.compile("(?P<r>.*):\\\\s(?P<test_name>Test [0-9]),\\\\s(?P<comment>.*)")$/;"	v
+result	common/scripts/netperf2LAVA.py	/^                result = parser.search(line)$/;"	v
+result_file	common/scripts/lkp.py	/^        result_file = result_root + '\/' + str(count - 1) + '\/' + JOB + '.json'$/;"	v
+result_parser	common/scripts/mmtests.sh	/^result_parser(){$/;"	f
+result_results	automated/linux/ltp-realtime/ltp-realtime.py	/^def result_results():$/;"	f
+result_results	common/scripts/ltp-realtime2LAVA.py	/^def result_results():$/;"	f
+result_root	common/scripts/lkp.py	/^    result_root = '\/'.join(['\/result', JOB,$/;"	v
+resultre	common/scripts/fwts-parser.py	/^                resultre = result.search(content)$/;"	v
+returnIP	automated/linux/kvm/wait-ip.py	/^    def returnIP(self):$/;"	m	class:MyHandler
+root	automated/linux/ui-browser-test/robot-results-parser.py	/^root = tree.getroot()$/;"	v
+rr_type	common/scripts/netperf2LAVA.py	/^                                rr_type = "TCP_RR"$/;"	v
+rr_type	common/scripts/netperf2LAVA.py	/^                                rr_type = "UDP_RR"$/;"	v
+rt_migrate	automated/linux/ltp-realtime/ltp-realtime.py	/^def rt_migrate():$/;"	f
+rt_migrate	common/scripts/ltp-realtime2LAVA.py	/^def rt_migrate():$/;"	f
+run	automated/bin/test-runner	/^    def run(self):$/;"	m	class:AutomatedTestRun
+run	automated/bin/test-runner	/^    def run(self):$/;"	m	class:ManualTestRun
+run	automated/bin/test-runner	/^    def run(self):$/;"	m	class:RemoteTestRun
+run	automated/bin/test-runner	/^    def run(self):$/;"	m	class:ResultParser
+run	automated/bin/test-runner	/^    def run(self):$/;"	m	class:TestDefinition
+run	automated/bin/test-runner	/^    def run(self):$/;"	m	class:TestRun
+run	automated/linux/network-basic/network-basic.sh	/^run() {$/;"	f
+run	automated/linux/smoke/smoke.sh	/^run() {$/;"	f
+run	automated/utils/httperf/httperf-runner.py	/^    def run(self):$/;"	m	class:httperf
+run	automated/utils/httperf/httperf-runner.py	/^    def run(self):$/;"	m	class:httperf_runner
+run	automated/utils/test-runner.py	/^    def run(self):$/;"	m	class:AutomatedTestRun
+run	automated/utils/test-runner.py	/^    def run(self):$/;"	m	class:ManualTestRun
+run	automated/utils/test-runner.py	/^    def run(self):$/;"	m	class:RemoteTestRun
+run	automated/utils/test-runner.py	/^    def run(self):$/;"	m	class:ResultParser
+run	automated/utils/test-runner.py	/^    def run(self):$/;"	m	class:TestDefinition
+run	automated/utils/test-runner.py	/^    def run(self):$/;"	m	class:TestRun
+run_command	automated/bin/test-runner	/^def run_command(command, target=None):$/;"	f
+run_command	automated/utils/test-runner.py	/^def run_command(command, target=None):$/;"	f
+run_func	common/scripts/is-cpu-isolated.sh	/^run_func()$/;"	f
+run_ltp	automated/linux/ltp/ltp.sh	/^run_ltp() {$/;"	f
+run_ltp_realtime	automated/linux/ltp-realtime/ltp-realtime.sh	/^run_ltp_realtime() {$/;"	f
+run_pep8	validate.py	/^    run_pep8 = True$/;"	v
+run_pep8	validate.py	/^run_pep8 = False$/;"	v
+run_test_case	automated/lib/sh-test-lib	/^run_test_case() {$/;"	f
+run_unit_tests	validate.py	/^def run_unit_tests(args, filelist=None):$/;"	f
+runner	automated/utils/httperf/httperf-runner.py	/^    runner = httperf_runner(step=args.step[0], rate=args.rate[0],$/;"	v
+sched_football	automated/linux/ltp-realtime/ltp-realtime.py	/^def sched_football():$/;"	f
+sched_football	common/scripts/ltp-realtime2LAVA.py	/^def sched_football():$/;"	f
+sched_jitter	automated/linux/ltp-realtime/ltp-realtime.py	/^def sched_jitter():$/;"	f
+sched_jitter	common/scripts/ltp-realtime2LAVA.py	/^def sched_jitter():$/;"	f
+sched_jitter_results	automated/linux/ltp-realtime/ltp-realtime.py	/^def sched_jitter_results():$/;"	f
+sched_jitter_results	common/scripts/ltp-realtime2LAVA.py	/^def sched_jitter_results():$/;"	f
+sched_latency	automated/linux/ltp-realtime/ltp-realtime.py	/^def sched_latency():$/;"	f
+sched_latency	common/scripts/ltp-realtime2LAVA.py	/^def sched_latency():$/;"	f
+search	common/scripts/min_max_avg_parse.py	/^    search = r.search(line)$/;"	v
+sense_infinite_isolation	common/scripts/is-cpu-isolated.sh	/^sense_infinite_isolation() {$/;"	f
+server	automated/linux/kvm/wait-ip.py	/^server = HTTPServer(('', 8080), MyHandler)$/;"	v
+servername	automated/linux/lamp/html/add-record.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lamp/html/connect-db.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lamp/html/create-db.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lamp/html/create-table.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lamp/html/delete-record.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lamp/html/select-record.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lemp/html/add-record.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lemp/html/connect-db.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lemp/html/create-db.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lemp/html/create-table.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lemp/html/delete-record.php	/^$servername = "localhost";$/;"	v
+servername	automated/linux/lemp/html/select-record.php	/^$servername = "localhost";$/;"	v
+set_irq_affinity	automated/linux/httperf-client/httperf-client.sh	/^function set_irq_affinity {$/;"	f
+sql	automated/linux/lamp/html/add-record.php	/^$sql = "INSERT INTO MyGuests (firstname, lastname, email)$/;"	v
+sql	automated/linux/lamp/html/create-db.php	/^$sql = "CREATE DATABASE myDB";$/;"	v
+sql	automated/linux/lamp/html/create-table.php	/^$sql = "CREATE TABLE MyGuests ($/;"	v
+sql	automated/linux/lamp/html/delete-record.php	/^$sql = "DELETE FROM MyGuests WHERE id=6";$/;"	v
+sql	automated/linux/lamp/html/select-record.php	/^$sql = "SELECT id, firstname, lastname FROM MyGuests";$/;"	v
+sql	automated/linux/lemp/html/add-record.php	/^$sql = "INSERT INTO MyGuests (firstname, lastname, email)$/;"	v
+sql	automated/linux/lemp/html/create-db.php	/^$sql = "CREATE DATABASE myDB";$/;"	v
+sql	automated/linux/lemp/html/create-table.php	/^$sql = "CREATE TABLE MyGuests ($/;"	v
+sql	automated/linux/lemp/html/delete-record.php	/^$sql = "DELETE FROM MyGuests WHERE id=6";$/;"	v
+sql	automated/linux/lemp/html/select-record.php	/^$sql = "SELECT id, firstname, lastname FROM MyGuests";$/;"	v
+squad_metadata	automated/bin/post-to-squad	/^def squad_metadata(results):$/;"	f
+squad_metadata	automated/utils/post-to-squad.py	/^def squad_metadata(results):$/;"	f
+squad_result	automated/bin/post-to-squad	/^def squad_result(results):$/;"	f
+squad_result	automated/utils/post-to-squad.py	/^def squad_result(results):$/;"	f
+standard_results	automated/linux/ltp-realtime/ltp-realtime.py	/^def standard_results():$/;"	f
+standard_results	common/scripts/ltp-realtime2LAVA.py	/^def standard_results():$/;"	f
+start_qemu_aarch64_aarch64	automated/linux/kvm/start-kvm.sh	/^start_qemu_aarch64_aarch64()$/;"	f
+start_qemu_aarch64_armv7l	automated/linux/kvm/start-kvm.sh	/^start_qemu_aarch64_armv7l()$/;"	f
+start_qemu_armv7l_armv7l	automated/linux/kvm/start-kvm.sh	/^start_qemu_armv7l_armv7l()$/;"	f
+start_qemu_x86_64_aarch64	automated/linux/kvm/start-kvm.sh	/^start_qemu_x86_64_aarch64()$/;"	f
+start_qemu_x86_64_armv7l	automated/linux/kvm/start-kvm.sh	/^start_qemu_x86_64_armv7l()$/;"	f
+start_time	automated/utils/httperf/httperf-runner.py	/^start_time = time()$/;"	v
+status	automated/linux/ui-browser-test/robot-results-parser.py	/^                    status = 'fail'$/;"	v
+status	automated/linux/ui-browser-test/robot-results-parser.py	/^                    status = 'pass'$/;"	v
+status	automated/linux/ui-browser-test/robot-results-parser.py	/^                status = 'pass'$/;"	v
+stress_network	automated/linux/24h-stress-test/24h-stress-test.sh	/^stress_network()$/;"	f
+stress_ng	automated/linux/24h-stress-test/24h-stress-test.sh	/^stress_ng()$/;"	f
+stress_oom	automated/linux/24h-stress-test/24h-stress-test.sh	/^stress_oom()$/;"	f
+sub_test_case_id	common/scripts/lkp.py	/^    sub_test_case_id = os.path.basename(sub_test)[:-46]$/;"	v
+suffix	common/scripts/lkp.py	/^            suffix = ''$/;"	v
+suffix	common/scripts/lkp.py	/^            suffix = '-run' + str(count)$/;"	v
+summary	common/scripts/fwts-parser.py	/^summary = re.compile("(?P<passed_no>[0-9]+) passed, (?P<failed_no>[0-9]+) failed, (?P<warning_no>[0-9]+) warning, (?P<aborted_no>[0-9]+) aborted, (?P<skil_no>[0-9]+) skipped, (?P<info_no>[0-9]+) info only")$/;"	v
+sumre	common/scripts/fwts-parser.py	/^                sumre = summary.search(content)$/;"	v
+switcher_disable	common/scripts/iks-smoke-test.sh	/^switcher_disable ()$/;"	f
+switcher_enable	common/scripts/iks-smoke-test.sh	/^switcher_enable ()$/;"	f
+t_comment	common/scripts/fwts-parser.py	/^            t_comment = t['comment']$/;"	v
+t_comment	common/scripts/fwts-parser.py	/^        t_comment = t['name']$/;"	v
+t_result	common/scripts/fwts-parser.py	/^            t_result = t['result']$/;"	v
+t_result	common/scripts/fwts-parser.py	/^        t_result = 'skip'$/;"	v
+tamper_guest	common/scripts/kvm/test-kvm.sh	/^tamper_guest()$/;"	f
+tc_2	automated/linux/ltp-realtime/ltp-realtime.py	/^def tc_2():$/;"	f
+tc_2	common/scripts/ltp-realtime2LAVA.py	/^def tc_2():$/;"	f
+test	common/scripts/fwts-parser.py	/^                    test = {'test_name': resultre.group('test_name'),$/;"	v
+test_exists	plans/testplan2html.py	/^def test_exists(test, repositories, args):$/;"	f
+test_finish	automated/linux/ltp-realtime/ltp-realtime.py	/^test_finish = re.compile("The .* test appears to have completed.")$/;"	v
+test_finish	common/scripts/ltp-realtime2LAVA.py	/^test_finish = re.compile("The .* test appears to have completed.")$/;"	v
+test_gator_data_streaming_cmd	common/scripts/gator-data-streaming.sh	/^test_gator_data_streaming_cmd() {$/;"	f
+test_gator_data_streaming_result	common/scripts/gator-data-streaming.sh	/^test_gator_data_streaming_result() {$/;"	f
+test_list	automated/bin/test-runner	/^    def test_list(self, kind="automated"):$/;"	m	class:TestPlan
+test_list	automated/utils/test-runner.py	/^    def test_list(self, kind="automated"):$/;"	m	class:TestPlan
+test_result	common/scripts/lkp.py	/^def test_result(test_command, test_case_id):$/;"	f
+test_session_xml_not_empty	common/scripts/gator-data-streaming.sh	/^test_session_xml_not_empty() {$/;"	f
+test_start	automated/linux/ltp-realtime/ltp-realtime.py	/^test_start = re.compile("--- Running testcase (?P<name>[a-zA-Z0-9_-]+)\\s+(?P<args>[a-zA-Z0-9_.\\- ]*?)\\s*---")$/;"	v
+test_start	common/scripts/ltp-realtime2LAVA.py	/^test_start = re.compile("--- Running testcase (?P<name>[a-zA-Z0-9_-]+)\\s+(?P<args>[a-zA-Z0-9_.\\- ]*?)\\s*---")$/;"	v
+total_interrupts	common/scripts/is-cpu-isolated.sh	/^total_interrupts() {$/;"	f
+tree	automated/linux/ui-browser-test/robot-results-parser.py	/^tree = ET.parse(input_file)$/;"	v
+update_non_isol_cpus	common/scripts/is-cpu-isolated.sh	/^update_non_isol_cpus() {$/;"	f
+update_sysfs_tunables	common/scripts/is-cpu-isolated.sh	/^update_sysfs_tunables() {$/;"	f
+usage	automated/linux/24h-stress-test/24h-stress-test.sh	/^usage()$/;"	f
+usage	automated/linux/apache-apache-bench/apache-bench.sh	/^usage() {$/;"	f
+usage	automated/linux/blogbench/blogbench.sh	/^usage() {$/;"	f
+usage	automated/linux/cyclictest/cyclictest.sh	/^usage() {$/;"	f
+usage	automated/linux/dd-wr-speed/dd-wr-speed.sh	/^usage() {$/;"	f
+usage	automated/linux/device-read-perf/device-read-perf.sh	/^usage() {$/;"	f
+usage	automated/linux/disk-partitioning/disk-partitioning.sh	/^usage() {$/;"	f
+usage	automated/linux/docker/docker.sh	/^usage() {$/;"	f
+usage	automated/linux/dsdbench/dsdbench.sh	/^usage() {$/;"	f
+usage	automated/linux/ethernet/ethernet.sh	/^usage() {$/;"	f
+usage	automated/linux/fio-test/fio-test.sh	/^usage() {$/;"	f
+usage	automated/linux/hackbench/hackbench.sh	/^usage() {$/;"	f
+usage	automated/linux/iperf/iperf.sh	/^usage() {$/;"	f
+usage	automated/linux/isolate-task/isolate-task-verify.sh	/^usage() {$/;"	f
+usage	automated/linux/kernel-compilation/kernel-compilation.sh	/^usage() {$/;"	f
+usage	automated/linux/kselftest/kselftest.sh	/^usage() {$/;"	f
+usage	automated/linux/lamp/lamp.sh	/^usage() {$/;"	f
+usage	automated/linux/lapack/lapack.sh	/^usage() {$/;"	f
+usage	automated/linux/libhugetlbfs/libhugetlbfs.sh	/^usage() {$/;"	f
+usage	automated/linux/linpack/linpack.sh	/^usage() {$/;"	f
+usage	automated/linux/lshw/lshw.sh	/^usage() {$/;"	f
+usage	automated/linux/ltp-realtime/ltp-realtime.sh	/^usage() {$/;"	f
+usage	automated/linux/ltp/ltp.sh	/^usage() {$/;"	f
+usage	automated/linux/network-basic/network-basic.sh	/^usage() {$/;"	f
+usage	automated/linux/nginx-apache-bench/apache-bench.sh	/^usage() {$/;"	f
+usage	automated/linux/openjdk/openjdk-smoke.sh	/^usage() {$/;"	f
+usage	automated/linux/openssh/openssh-debian.sh	/^usage() {$/;"	f
+usage	automated/linux/openssl/openssl-speed.sh	/^usage() {$/;"	f
+usage	automated/linux/optee/optee-xtest.sh	/^usage() {$/;"	f
+usage	automated/linux/pi-stress/pi-stress.sh	/^usage() {$/;"	f
+usage	automated/linux/pm-qa/pm-qa.sh	/^usage() {$/;"	f
+usage	automated/linux/pmqtest/pmqtest.sh	/^usage() {$/;"	f
+usage	automated/linux/pointer-tagging/pointer-tagging-tests.sh	/^usage() {$/;"	f
+usage	automated/linux/rcutorture/rcutorture.sh	/^usage() {$/;"	f
+usage	automated/linux/rt-migrate-test/rt-migrate-test.sh	/^usage() {$/;"	f
+usage	automated/linux/signaltest/signaltest.sh	/^usage() {$/;"	f
+usage	automated/linux/smoke/smoke.sh	/^usage() {$/;"	f
+usage	automated/linux/sysbench/sysbench.sh	/^usage() {$/;"	f
+usage	automated/linux/toolchain-smoke/toolchain-smoke.sh	/^usage() {$/;"	f
+usage	automated/linux/ui-browser-test/ui-browser-test.sh	/^usage()$/;"	f
+usage	automated/linux/usb-smoke/usb-smoke-test.sh	/^usage() {$/;"	f
+usage	automated/linux/workload-automation/workload-automation.sh	/^usage() {$/;"	f
+usage	automated/utils/upload-to-artifactorial.sh	/^usage() {$/;"	f
+usage	common/scripts/dd-speed-test.sh	/^usage() {$/;"	f
+usage	common/scripts/disk-partitioning-test.sh	/^usage() {$/;"	f
+usage	common/scripts/generator.sh	/^usage()$/;"	f
+usage	common/scripts/ltp-ddt.sh	/^usage() $/;"	f
+username	automated/linux/lamp/html/add-record.php	/^$username = "root";$/;"	v
+username	automated/linux/lamp/html/connect-db.php	/^$username = "root";$/;"	v
+username	automated/linux/lamp/html/create-db.php	/^$username = "root";$/;"	v
+username	automated/linux/lamp/html/create-table.php	/^$username = "root";$/;"	v
+username	automated/linux/lamp/html/delete-record.php	/^$username = "root";$/;"	v
+username	automated/linux/lamp/html/select-record.php	/^$username = "root";$/;"	v
+username	automated/linux/lemp/html/add-record.php	/^$username = "root";$/;"	v
+username	automated/linux/lemp/html/connect-db.php	/^$username = "root";$/;"	v
+username	automated/linux/lemp/html/create-db.php	/^$username = "root";$/;"	v
+username	automated/linux/lemp/html/create-table.php	/^$username = "root";$/;"	v
+username	automated/linux/lemp/html/delete-record.php	/^$username = "root";$/;"	v
+username	automated/linux/lemp/html/select-record.php	/^$username = "root";$/;"	v
+validate_check_sum	automated/lib/sh-test-lib	/^validate_check_sum() {$/;"	f
+validate_env	automated/bin/test-runner	/^    def validate_env(self):$/;"	m	class:TestSetup
+validate_env	automated/utils/test-runner.py	/^    def validate_env(self):$/;"	m	class:TestSetup
+validate_external	validate.py	/^def validate_external(cmd, filename, prefix, args):$/;"	f
+validate_file	validate.py	/^def validate_file(args, path):$/;"	f
+validate_php	validate.py	/^def validate_php(filename, args):$/;"	f
+validate_shell	validate.py	/^def validate_shell(filename, ignore_options):$/;"	f
+validate_yaml	validate.py	/^def validate_yaml(filename, args):$/;"	f
+values	common/scripts/min_max_avg_parse.py	/^values = []$/;"	v
+wait_boot_completed	automated/lib/android-test-lib	/^wait_boot_completed() {$/;"	f
+wait_for_unlock_apt	common/scripts/install-deps.sh	/^wait_for_unlock_apt () {$/;"	f
+wait_homescreen	automated/lib/android-test-lib	/^wait_homescreen() {$/;"	f
+warn_msg	automated/lib/sh-test-lib	/^warn_msg() {$/;"	f
+warn_msg	common/scripts/include/sh-test-lib	/^warn_msg() {$/;"	f
+write	automated/utils/httperf/httperf-runner.py	/^    def write(self, filename="httperf.txt"):$/;"	m	class:httperf
+write	automated/utils/httperf/httperf-runner.py	/^    def write(self, filename='httperf.txt'):$/;"	m	class:httperf_runner
+write_config	automated/linux/nginx-server/nginx-server.sh	/^function write_config {$/;"	f
