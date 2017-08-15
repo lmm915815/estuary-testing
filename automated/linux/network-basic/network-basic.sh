@@ -21,7 +21,7 @@ while getopts "s:i:" o; do
 done
 
 install() {
-    pkgs="curl net-tools"
+    pkgs="curl net-tools* dhcp*"
     install_deps "${pkgs}" "${SKIP_INSTALL}"
 }
 
