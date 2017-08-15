@@ -14,7 +14,7 @@ configParament(){
     # backup config file
     cp /etc/samba/smb.conf{,.bak}
     # share config
-    cat  >> /etc/samba/smb.conf << EOF
+    cat<<EOF >>/etc/samba/smb.conf 
     [share]
         comment = Anonymous share
         path = /srv/samba/share
@@ -33,9 +33,10 @@ EOF
     # 2 secured config 
     #2.1 add test user 
     groupadd -f  smbgrp
-    ret=`useradd smb -G smbgrp`
-    if [$ret == 0]then
-    elif [$ret == 9] then
+    useradd smb -G smbgrp
+    if [$? == 0];then
+        ;
+    elif [$? == 9]; then
         userdel smb 
         useradd smb -G smbgrp
     else
@@ -43,8 +44,8 @@ EOF
     fi
 
     smbpasswd -a smb -s << EOF
-    smbpw 
-    smbpw 
+smbpw
+smbpw
 EOF
     mkdir -p /srv/samba/secured
     chmod -R 0755 /srv/samba/secured
@@ -52,7 +53,7 @@ EOF
 
     cat >> /etc/samba/smb.conf << EOF
     [secured]
-        commant = secured share
+        comment = secured share
         path = /srv/samba/secured
         valid users = @smbgrp
         guest ok = no
@@ -70,24 +71,36 @@ EOF
     systemctl stop firewall.service
 
     testparm -s
-    if [$? -ne 0] then
+    if [$? -ne 0] ;then
         echo "config has some error"
         exit
     fi
 
 }
 run(){
+    echo "-----------------"
     smbclient //localhost/share -U user -N -c "ls" 
     check_return "smbclient-share-anonymous" 
 
+    echo "-----------------"
     smbclient //localhost/share -U smb%smbpw -c "ls"
     check_return "smbclient-share-named"
-
+    
+    echo "-----------------"
+    ret=smbclient //localhost/secured -U smb -N -c "ls"
+    if [echo $ret | grep "NT_STATUS_ACCESS_DENIED" ]; then
+        true
+    else 
+        false
+    fi
+    check_return "smbclient-secured-Anonymous"
+    
+    echo "------------------"
     smbclient //localhost/secured -U smb%smbpw -c "ls"
     check_return "smbclient-secured-named"
 
 }
-
+set -x
 create_out_dir "${OUTPUT}"
 
 install 
@@ -95,4 +108,4 @@ install
 configParament
 
 run
-
+set +x
